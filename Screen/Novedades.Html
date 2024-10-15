@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novedades - Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-color: hsl(312, 98%, 65%);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: hsl(312, 65%, 50%);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #e2d8d8;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        new-arrivals {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            width: calc(33% - 40px);
+            box-shadow:  10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+         transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        product-info {
+            margin-top: 10px;
+        }
+        product-title {
+            
+            margin: 0  10px;
+        }
+        product-price {
+    
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Novedades de Ropa</h1>
+    </div>
+
+    </div>
+    <div class="new-arrivals">
+        <div class="product">
+            <img src="/Img/rizzler.jpg" alt="image" height="100" width="100">
+            <div class="product-info">
+                <div class="product-title">Camiseta divertida de la definición de Rizzler, 
+                    camiseta con cita de W Rizz, camiseta de la novedad de God Meme Trend</div>
+                <div class="product-price">$29.99</div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="/Img/mochila.jpg" alt="image" height="100" width="100">
+            <div class="product-info">
+                <div class="product-title">Renmte Mochila de Repartidor, Mochila Delivery, Mochila Termica Repartidor, 
+                    Mochila Repartidor de Comida con Bolsillos Tira Reflectante, Mochila de Entrega de Comida para Pizza/div>
+                <div class="product-price">$39.99</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
