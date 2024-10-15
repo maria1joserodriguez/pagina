@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas - Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(318, 95%, 64%);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: hsl(316, 70%, 45%);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .offers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .offer {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            width: calc(33% - 40px);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .offer:hover {
+            transform: scale(1.05);
+        }
+        .offer img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .offer-info {
+            margin-top: 10px;
+        }
+        .offer-title {
+            
+            margin: 0 10px;
+        }
+        .offer-price {
+            
+            color: #333;
+        }
+        .offer-discount {
+            
+            color: #e74c3c;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Ofertas de Ropa</h1>
+    </div>
+    </div>
+    <div class="offers">
+        <div class="offer">
+            <img src="/Img/chamarra.jpg" alt="image" height="100" width="100">
+            <div class="offer-info">
+                <div class="offer-title">Angxiong - chamarra de senderismo para exteriores, para verano, militar, 
+                    multibolsillos, táctica, caza, pesca, impermeable, con capucha para hombre</div>
+                <div class="offer-price">$19.99 <span class="offer-discount">$29.99</span></div>
+            </div>
+        </div>
+        <div class="offer">
+            <img src="/Img/bolso.jpg" alt="image" height="100" width="100">
+            <div class="offer-info">
+                <div class="offer-title">Nautica Diver - Bolso bandolera pequeño de nailon para mujer con correa de hombro ajustable</div>
+                <div class="offer-price">$24.99 <span class="offer-discount">$39.99</span></div>
+            </div>
+        </div>
+        <div class="offer">
+            <img src="/Img/Mariquera.jpg" alt="image" height="100" width="100">
+            <div class="offer-info">
+                <div class="offer-title">Nautica
+                    Detalles del producto
+                    Tipo de tejido100 % nailon
+                    Instrucciones de cuidado del materialLavado a mano
+                    Material exteriorNailon
+                    Material internoNailon</div>
+                <div class="offer-price">$14.99 <span class="offer-discount">$24.99</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

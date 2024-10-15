@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías - Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(317, 99%, 66%);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: hsl(320, 87%, 77%);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .category {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            width: calc(33% - 40px);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .category-info {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .category-title {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Categorías de Ropa</h1>
+    </div>
+    
+    </div>
+    <div class="categories">
+        <div class="category">
+            <img src="/Img/boxer.jpg" alt="Imagen" height="100" width="100"> 
+            <div class="category-info">
+                <div class="category-title">Hanes Clásico Ropa Interior Caballero Paquete 6 Piezas Boxer trunkHombre</div>
+            </div>
+        </div>
+        <div class="category">
+            <img src="/Img/pijama.jpg" alt="Imagen" height="100" width="100">
+            <div class="category-info">
+                <div class="category-title">Juego de Pijama clásico Pajama SetMujer</div>
+            </div>
+        </div>
+        <div class="category">
+            <img src="/Img/DC.jpg" alt="Imagen" height="100" width="100">
+            <div class="category-info">
+                <div class="category-title">DC Comics - Paraguas y cortador, Batman o Superman para niños pequeños, 
+                    para niños de 2 a 7 años</div>
+            </div>
+        </div>
+        <div class="category">
+            <img src="/Img/gafas.jpg" alt="Imagen" height="100" width="100">
+            <div class="category-info">
+                <div class="category-title">SojoS Gafas De Sol Para Hombres
+                     Y Mujeres Aviador Clásico Marco Metal Lentes Espejo Polarizadas SJ1054</div>
+            </div>
+        </div>
+        <div class="category">
+            <img src="/Img/Ropa deportiva.jpg" alt="Imagen" height="100" width="100">
+            <div class="category-info">
+                <div class="category-title">Paquete de 5: camisas de entrenamiento de ajuste seco para mujer,
+                     camisetas deportivas de manga corta, camisetas largas activas a granel</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
